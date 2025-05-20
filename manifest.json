@@ -11,14 +11,8 @@
       "128": "icons/icon128.svg"
     }
   },
-  "permissions": [
-    "activeTab",
-    "scripting",
-    "tabs"
-  ],
-  "host_permissions": [
-    "<all_urls>"
-  ],
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "host_permissions": ["<all_urls>"],
   "icons": {
     "16": "icons/icon16.svg",
     "48": "icons/icon48.svg",
@@ -32,6 +26,6 @@
     }
   ],
   "content_security_policy": {
-    "extension_pages": "script-src 'self' 'unsafe-inline'; object-src 'self'"
+    "extension_pages": "script-src 'self'; object-src 'self'"
   }
 }
